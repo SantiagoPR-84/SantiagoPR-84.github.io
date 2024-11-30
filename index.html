@@ -10,16 +10,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/4cd477934a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
         <nav>
-            <a href="#" >Inicio</a>
-            <a href="#" >Acerca de</a>
-            <a href="#" >Contactos</a>
-            <a href="#" >Funcionamiento</a>
-            <a href="#" >Servicios</a>
+            <a href="#NuestroProducto" >Acerca de</a>
+            <a href="#NuestroProyecto" >Proyecto</a>
+            <a href="#Nosotros" >Nosotros</a>
+            <a href="#Funcionamiento" >Funcionamiento</a>
+            <a href="#Contactos" >Contactos</a>
         </nav>
          <section class="textos-header">
             <h1>Kraft Cube</h1>
@@ -30,7 +31,7 @@
     </header>
     <main>
         <section class="contenedor sobre-nosotros">
-            <h2 class="titulo">Nuestro Producto</h2>
+            <h2 class="titulo" id="NuestroProducto">Nuestro Producto</h2>
             <div class="contenedor-sobre-nosotros">
                 <img src="img/Ilus2.svg" alt="" class="img-about-us">
                 <div class="contenido-textos">
@@ -47,69 +48,121 @@
         </section>
         <section class="acerca-de">
             <div class="contenedor">
-                <h2 class="titulo">Nuestro Proyecto</h2>
+                <h2 class="titulo" id="NuestroProyecto">Nuestro Proyecto</h2>
                 <div class="galeria-port">
                     <div class="img-port">
                         <img src="img/img1.jpg" alt="">
                         <div class="hover-galeria">
-                            <img src="img/hovericon2.png" alt="">
+                            <a href="#image1"><img src="img/hovericon2.png" alt=""></a>
                             <p>Nuestro Trabajo</p>
                         </div>
                     </div>
                     <div class="img-port">
                         <img src="img/img2.jpg" alt=""">
                         <div class="hover-galeria">
-                            <img src="img/hovericon2.png" alt="">
+                            <a href="#image2"><img src="img/hovericon2.png" alt=""></a>
                             <p>Nuestro Trabajo</p>
                         </div>
                     </div>
                     <div class="img-port">
                         <img src="img/img3.jpg" alt="">
                         <div class="hover-galeria">
-                            <img src="img/hovericon2.png" alt="">
+                            <a href="#image3"><img src="img/hovericon2.png" alt=""></a>
                             <p>Nuestro Trabajo</p>
                         </div>
                     </div>
                     <div class="img-port">
                         <img src="img/img4.jpg" alt="">
                         <div class="hover-galeria">
-                            <img src="img/hovericon2.png" alt="">
+                            <a href="#image4"><img src="img/hovericon2.png" alt=""></a>
                             <p>Nuestro Trabajo</p>
                         </div>
                     </div>
                     <div class="img-port">
                         <img src="img/img5.jpg" alt="">
                         <div class="hover-galeria">
-                            <img src="img/hovericon2.png" alt="">
+                            <a href="#image5"><img src="img/hovericon2.png" alt=""></a>
                             <p>Nuestro Trabajo</p>
                         </div>
                     </div>
                     <div class="img-port">
                         <img src="img/img6.jpg" alt="">
                         <div class="hover-galeria">
-                            <img src="img/hovericon2.png" alt="">
+                            <a href="#image6"><img src="img/hovericon2.png" alt=""></a>
                             <p>Nuestro Trabajo</p>
                         </div>
                     </div>
                     <div class="img-port">
                         <img src="img/img7.jpg" alt=""">
                         <div class="hover-galeria">
-                            <img src="img/hovericon2.png" alt="">
+                            <a href="#image7"><img src="img/hovericon2.png" alt=""></a>
                             <p>Nuestro Trabajo</p>
                         </div>
                     </div>
                     <div class="img-port">
                         <img src="img/img8.jpg" alt="">
                         <div class="hover-galeria">
-                            <img src="img/hovericon2.png" alt="">
+                            <a href="#image8"><img src="img/hovericon2.png" alt=""></a>                         
                             <p>Nuestro Trabajo</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <div>
+            <article class="light-box" id="image1">
+            <a href="#image8" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+            <img src="img/img1.jpg" alt="">
+            <a href="#image2" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#NuestroProyecto" class="close">X</a>
+        </article>
+        <article class="light-box" id="image2">
+            <a href="#image1" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+            <img src="img/img2.jpg" alt="">
+            <a href="#image3" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#NuestroProyecto" class="close">X</a>
+        </article>
+        <article class="light-box" id="image3">
+            <a href="#image2" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+            <img src="img/img3.jpg" alt="">
+            <a href="#image4" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#NuestroProyecto" class="close">X</a>
+        </article>
+        <article class="light-box" id="image4">
+            <a href="#image3" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+            <img src="img/img4.jpg" alt="">
+            <a href="#image5" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#NuestroProyecto" class="close">X</a>
+        </article>
+        <article class="light-box" id="image5">
+            <a href="#image4" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+            <img src="img/img5.jpg" alt="">
+            <a href="#image6" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#NuestroProyecto" class="close">X</a>
+        </article>
+        <article class="light-box" id="image6">
+            <a href="#image5" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+            <img src="img/img6.jpg" alt="">
+            <a href="#image7" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#NuestroProyecto" class="close">X</a>
+        </article>
+        <article class="light-box" id="image7">
+            <a href="#image6" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+            <img src="img/img7.jpg" alt="">
+            <a href="#image8" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#NuestroProyecto" class="close">X</a>
+        </article>
+        <article class="light-box" id="image8">
+            <a href="#image7" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+            <img src="img/img8.jpg" alt="">
+            <a href="#image1" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#NuestroProyecto" class="close">X</a>
+        </article>
+        </div>
+        
+
         <section class="clientes contenedor">
-            <h2 class="titulo">Nosotros</h2>
+            <h2 class="titulo" id="Nosotros">Nosotros</h2>
             <div class="cards">
                 <div class="card">
                     <img src="img/natalia.jpeg" alt="">
@@ -142,7 +195,7 @@
         </section>
         <section class="about-services">
             <div class="contenedor">
-                <h2 class="titulo">Funcionamiento general</h2>
+                <h2 class="titulo" id="Funcionamiento">Funcionamiento general</h2>
                 <div class="servicio-cont">
                     <div class="servicio-ind">
                         <img src="img/ilus1.svg" alt="">
@@ -175,7 +228,7 @@
         </section>
     </main>
     <footer>
-        <div class="contenedor-footer">
+        <div class="contenedor-footer" id="Contactos">
             <div class="contet-foo">
                 <h4>Phone</h4>
                 <p>123456</p>
